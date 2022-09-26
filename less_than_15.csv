@@ -1,0 +1,103 @@
+﻿source,target,distance
+Accounting,Actuarial Maths,0.89
+Accounting,Business,0.56
+Accounting,Computing for Business,1.23
+Accounting,"Economics, Politics & Law",0.89
+Accounting,Journalism,1.4500000000000002
+Actuarial Maths,Accounting,0.89
+Actuarial Maths,Applied Physics,0.67
+Actuarial Maths,Business,0.89
+Actuarial Maths,Computer Science,1.4500000000000002
+Actuarial Maths,Computing for Business,1.4500000000000002
+Actuarial Maths,Data Science,0.78
+Actuarial Maths,Physical Education and Maths,0.89
+Actuarial Maths,Primary Education,1.4500000000000002
+Applied Physics,Actuarial Maths,0.67
+Applied Physics,Biotechnology,1.33
+Applied Physics,Chemistry,0.89
+Applied Physics,Computer Science,1.4500000000000002
+Applied Physics,Computing for Business,1.4500000000000002
+Applied Physics,Data Science,0.78
+Applied Physics,Genetics & Cell Biology,1.4500000000000002
+Applied Physics,Physical Education and Maths,0.78
+Applied Physics,Primary Education,1.34
+Biotechnology,Applied Physics,1.33
+Biotechnology,Chemistry,0.44
+Biotechnology,Electronic & Computer Engineering,0.89
+Biotechnology,Genetics & Cell Biology,0.44
+Biotechnology,Mechanical Engineering,0.89
+Biotechnology,Nursing,0.78
+Business,Accounting,0.56
+Business,Actuarial Maths,0.89
+Business,Computer Science,1.11
+Business,Computing for Business,0.67
+Business,Data Science,1.34
+Business,"Economics, Politics & Law",0.67
+Business,Journalism,0.89
+Chemistry,Applied Physics,0.89
+Chemistry,Biotechnology,0.44
+Chemistry,Electronic & Computer Engineering,1.33
+Chemistry,Genetics & Cell Biology,0.56
+Chemistry,Mechanical Engineering,1.33
+Chemistry,Nursing,0.89
+Computer Science,Actuarial Maths,1.4500000000000002
+Computer Science,Applied Physics,1.4500000000000002
+Computer Science,Business,1.11
+Computer Science,Computing for Business,0.44
+Computer Science,Data Science,0.67
+Computer Science,Electronic & Computer Engineering,0.89
+Computer Science,Mechanical Engineering,1.11
+Computing for Business,Accounting,1.23
+Computing for Business,Actuarial Maths,1.4500000000000002
+Computing for Business,Applied Physics,1.4500000000000002
+Computing for Business,Business,0.67
+Computing for Business,Computer Science,0.44
+Computing for Business,Data Science,0.67
+Computing for Business,"Economics, Politics & Law",1.34
+Computing for Business,Electronic & Computer Engineering,1.33
+Data Science,Actuarial Maths,0.78
+Data Science,Applied Physics,0.78
+Data Science,Business,1.34
+Data Science,Computer Science,0.67
+Data Science,Computing for Business,0.67
+"Economics, Politics & Law",Accounting,0.89
+"Economics, Politics & Law",Business,0.67
+"Economics, Politics & Law",Computing for Business,1.34
+Electronic & Computer Engineering,Biotechnology,0.89
+Electronic & Computer Engineering,Chemistry,1.33
+Electronic & Computer Engineering,Computer Science,0.89
+Electronic & Computer Engineering,Computing for Business,1.33
+Electronic & Computer Engineering,Genetics & Cell Biology,1.33
+Electronic & Computer Engineering,Mechanical Engineering,0.22
+Genetics & Cell Biology,Applied Physics,1.4500000000000002
+Genetics & Cell Biology,Biotechnology,0.44
+Genetics & Cell Biology,Chemistry,0.56
+Genetics & Cell Biology,Electronic & Computer Engineering,1.33
+Genetics & Cell Biology,Mechanical Engineering,1.33
+Genetics & Cell Biology,Nursing,0.67
+Genetics & Cell Biology,Social Science,1.4500000000000002
+Journalism,Accounting,1.4500000000000002
+Journalism,Business,0.89
+Journalism,Social Science,0.78
+Mechanical Engineering,Biotechnology,0.89
+Mechanical Engineering,Chemistry,1.33
+Mechanical Engineering,Computer Science,1.11
+Mechanical Engineering,Electronic & Computer Engineering,0.22
+Mechanical Engineering,Genetics & Cell Biology,1.33
+Nursing,Biotechnology,0.78
+Nursing,Chemistry,0.89
+Nursing,Genetics & Cell Biology,0.67
+Nursing,Psychology,0.89
+Nursing,Social Science,0.78
+Physical Education and Maths,Actuarial Maths,0.89
+Physical Education and Maths,Applied Physics,0.78
+Physical Education and Maths,Primary Education,0.56
+Primary Education,Actuarial Maths,1.4500000000000002
+Primary Education,Applied Physics,1.34
+Primary Education,Physical Education and Maths,0.56
+Psychology,Nursing,0.89
+Psychology,Social Science,0.78
+Social Science,Genetics & Cell Biology,1.4500000000000002
+Social Science,Journalism,0.78
+Social Science,Nursing,0.78
+Social Science,Psychology,0.78

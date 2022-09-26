@@ -1,0 +1,92 @@
+CREATE (cs:Course {name: "Computer Science", students: 120}), (ds:Course {name: "Data Science", students: 20}), (cb:Course {name: "Computing for Business", students: 30}),
+(a:Course {name: "Electronic & Computer Engineering", students: 50}), (b:Course {name: "Mechanical Engineering", students: 30}), (c:Course {name: "Business", students: 100}),
+(d:Course {name: "Accounting", students: 30}), (e:Course {name: "Applied Physics", students: 20}), (f:Course {name: "Actuarial Maths", students: 50}),
+(g:Course {name: "Economics, Politics & Law", students: 60}), (h:Course {name: "Primary Education", students: 120}), (i:Course {name: "Physical Education and Maths", students: 30}),
+(j:Course {name: "Chemistry", students: 40}), (k:Course {name: "Biotechnology", students: 30}), (l:Course {name: "Genetics & Cell Biology", students:30}),
+(m:Course {name: "Psychology", students: 50}), (n:Course {name: "Nursing", students:80}), (o:Course {name: "Social Science", students: 40}), (p:Course {name: "Journalism", students: 50})
+
+
+MATCH (ds:Course {name:"Data Science"}), (ec:Course {name:"Computing for Business"}), (cs:Course {name:"Computer Science"}),
+(a:Course {name: "Electronic & Computer Engineering", students: 50}), (b:Course {name: "Mechanical Engineering", students: 30}), (c:Course {name: "Business", students: 100}),
+(d:Course {name: "Accounting", students: 30}), (e:Course {name: "Applied Physics", students: 20}), (f:Course {name: "Actuarial Maths", students: 50}),
+(g:Course {name: "Economics, Politics & Law", students: 60}), (h:Course {name: "Primary Education", students: 120}), (i:Course {name: "Physical Education and Maths", students: 30}),
+(j:Course {name: "Chemistry", students: 40}), (k:Course {name: "Biotechnology", students: 30}), (l:Course {name: "Genetics & Cell Biology", students:30}),
+(m:Course {name: "Psychology", students: 50}), (n:Course {name: "Nursing", students:80}), (o:Course {name: "Social Science", students: 40}), (p:Course {name: "Journalism", students: 50})
+CREATE
+(cs)-[:DISSIMILARITY {percent:0.67}]->(ds)
+(cs)-[:DISSIMILARITY {percent:0.44}]->(ec)
+(ds)-[:DISSIMIILARITY{percent:0.67}]->(ec)
+(a)-[:DISSIMILARITY {percent:0.89}]->(cs),
+(ds)-[:DISSIMILARITY {percent:0.78}]->(e),
+(ds)-[:DISSIMILARITY {percent:0.78}]->(f),
+(ec)-[:DISSIMILARITY {percent:0.67}]->(c),
+(a)-[:DISSIMILARITY {percent:0.22}]->(b),
+(a)-[:DISSIMILARITY {percent:0.89}]->(k),
+(b)-[:DISSIMILARITY {percent:0.89}]->(k),
+(c)-[:DISSIMILARITY {percent:0.56}]->(d),
+(c)-[:DISSIMILARITY {percent:0.89}]->(f),
+(c)-[:DISSIMILARITY {percent:0.67}]->(g),
+(c)-[:DISSIMILARITY {percent:0.89}]->(p),
+(d)-[:DISSIMILARITY {percent:0.89}]->(f),
+(d)-[:DISSIMILARITY {percent:0.89}]->(g),
+(c)-[:DISSIMILARITY {percent:0.89}]->(o),
+(e)-[:DISSIMILARITY {percent:0.67}]->(f),
+(e)-[:DISSIMILARITY {percent:0.78}]->(i),
+(f)-[:DISSIMILARITY {percent:0.89}]->(i),
+(g)-[:DISSIMILARITY {percent:0.89}]->(o),
+(h)-[:DISSIMILARITY {percent:0.56}]->(i),
+(h)-[:DISSIMILARITY {percent:0.89}]->(o),
+(j)-[:DISSIMILARITY {percent:0.44}]->(k),
+(j)-[:DISSIMILARITY {percent:0.56}]->(l),
+(j)-[:DISSIMILARITY {percent:0.89}]->(n),
+(j)-[:DISSIMILARITY {percent:0.89}]->(e),
+(k)-[:DISSIMILARITY {percent:0.44}]->(l),
+(k)-[:DISSIMILARITY {percent:0.78}]->(n),
+(l)-[:DISSIMILARITY {percent:0.67}]->(n),
+(m)-[:DISSIMILARITY {percent:0.78}]->(o),
+(m)-[:DISSIMILARITY {percent:0.89}]->(n),
+(n)-[:DISSIMILARITY {percent:0.78}]->(o),
+(o)-[:DISSIMILARITY {percent:0.78}]->(p)
+
+// Reversed
+MATCH (ds:Course {name:"Data Science"}), (ec:Course {name:"Computing for Business"}), (cs:Course {name:"Computer Science"}),
+(a:Course {name: "Electronic & Computer Engineering", students: 50}), (b:Course {name: "Mechanical Engineering", students: 30}), (c:Course {name: "Business", students: 100}),
+(d:Course {name: "Accounting", students: 30}), (e:Course {name: "Applied Physics", students: 20}), (f:Course {name: "Actuarial Maths", students: 50}),
+(g:Course {name: "Economics, Politics & Law", students: 60}), (h:Course {name: "Primary Education", students: 120}), (i:Course {name: "Physical Education and Maths", students: 30}),
+(j:Course {name: "Chemistry", students: 40}), (k:Course {name: "Biotechnology", students: 30}), (l:Course {name: "Genetics & Cell Biology", students:30}),
+(m:Course {name: "Psychology", students: 50}), (n:Course {name: "Nursing", students:80}), (o:Course {name: "Social Science", students: 40}), (p:Course {name: "Journalism", students: 50})
+CREATE
+(ds)-[:DISSIMILARITY {percent:0.67}]->(ds)
+(ec)-[:DISSIMILARITY {percent:0.44}]->(cs)
+(dec)-[:DISSIMIILARITY{percent:0.67}]->(ds)
+(a)-[:DISSIMILARITY {percent:0.89}]->(cs),
+(ds)<-[:DISSIMILARITY {percent:0.78}]-(e),
+(ds)<-[:DISSIMILARITY {percent:0.78}]-(f),
+(ec)<-[:DISSIMILARITY {percent:0.67}]-(c),
+(a)<-[:DISSIMILARITY {percent:0.22}]-(b),
+(a)<-[:DISSIMILARITY {percent:0.89}]-(k),
+(b)<-[:DISSIMILARITY {percent:0.89}]-(k),
+(c)<-[:DISSIMILARITY {percent:0.56}]-(d),
+(c)<-[:DISSIMILARITY {percent:0.89}]-(f),
+(c)<-[:DISSIMILARITY {percent:0.67}]-(g),
+(c)<-[:DISSIMILARITY {percent:0.89}]-(p),
+(d)<-[:DISSIMILARITY {percent:0.89}]-(f),
+(d)<-[:DISSIMILARITY {percent:0.89}]-(g),
+(c)<-[:DISSIMILARITY {percent:0.89}]-(o),
+(e)<-[:DISSIMILARITY {percent:0.67}]-(f),
+(e)<-[:DISSIMILARITY {percent:0.78}]-(i),
+(f)<-[:DISSIMILARITY {percent:0.89}]-(i),
+(g)<-[:DISSIMILARITY {percent:0.89}]-(o),
+(h)<-[:DISSIMILARITY {percent:0.56}]-(i),
+(h)<-[:DISSIMILARITY {percent:0.89}]-(o),
+(j)<-[:DISSIMILARITY {percent:0.44}]-(k),
+(j)<-[:DISSIMILARITY {percent:0.56}]-(l),
+(j)<-[:DISSIMILARITY {percent:0.89}]-(n),
+(j)<-[:DISSIMILARITY {percent:0.89}]-(e),
+(k)<-[:DISSIMILARITY {percent:0.44}]-(l),
+(k)<-[:DISSIMILARITY {percent:0.78}]-(n),
+(l)<-[:DISSIMILARITY {percent:0.67}]-(n),
+(m)<-[:DISSIMILARITY {percent:0.78}]-(o),
+(m)<-[:DISSIMILARITY {percent:0.89}]-(n),
+(n)<-[:DISSIMILARITY {percent:0.78}]-(o),
+(o)<-[:DISSIMILARITY {percent:0.78}]-(p)

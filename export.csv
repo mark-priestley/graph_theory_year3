@@ -1,0 +1,20 @@
+﻿name,communityId,intermediateCommunityIds
+Accounting,9,null
+Actuarial Maths,11,null
+Applied Physics,11,null
+Biotechnology,12,null
+Business,9,null
+Chemistry,12,null
+Computer Science,2,null
+Computing for Business,2,null
+Data Science,2,null
+"Economics, Politics & Law",9,null
+Electronic & Computer Engineering,3,null
+Genetics & Cell Biology,12,null
+Journalism,17,null
+Mechanical Engineering,3,null
+Nursing,12,null
+Physical Education and Maths,11,null
+Primary Education,11,null
+Psychology,17,null
+Social Science,17,null

@@ -1,0 +1,142 @@
+{
+   "Accounting": {
+      "Actuarial Maths": 1,
+      "Business": 0,
+      "Computing for Business": 1,
+      "Economics, Politics & Law": 0,
+      "Journalism": 1
+   },
+   "Actuarial Maths": {
+      "Accounting": 2,
+      "Applied Physics": 0,
+      "Business": 2,
+      "Computer Science": 0,
+      "Computing for Business": 0,
+      "Data Science": 1,
+      "Physical Education and Maths": 0,
+      "Primary Education": 0
+   },
+   "Applied Physics": {
+      "Actuarial Maths": 0,
+      "Biotechnology": 0,
+      "Chemistry": 0,
+      "Computer Science": 0,
+      "Computing for Business": 1,
+      "Data Science": 0,
+      "Genetics & Cell Biology": 0,
+      "Physical Education and Maths": 1,
+      "Primary Education": 0
+   },
+   "Biotechnology": {
+      "Applied Physics": 0,
+      "Chemistry": 0,
+      "Electronic & Computer Engineering": 1,
+      "Genetics & Cell Biology": 1,
+      "Mechanical Engineering": 1,
+      "Nursing": 0
+   },
+   "Business": {
+      "Accounting": 3,
+      "Actuarial Maths": 0,
+      "Computer Science": 1,
+      "Computing for Business": 3,
+      "Data Science": 1,
+      "Economics, Politics & Law": 2,
+      "Journalism": 0
+   },
+   "Chemistry": {
+      "Applied Physics": 0,
+      "Biotechnology": 0,
+      "Electronic & Computer Engineering": 0,
+      "Genetics & Cell Biology": 2,
+      "Mechanical Engineering": 0,
+      "Nursing": 2
+   },
+   "Computer Science": {
+      "Actuarial Maths": 5,
+      "Applied Physics": 0,
+      "Business": 3,
+      "Computing for Business": 1,
+      "Data Science": 0,
+      "Electronic & Computer Engineering": 2,
+      "Mechanical Engineering": 1
+   },
+   "Computing for Business": {
+      "Accounting": 0,
+      "Actuarial Maths": 1,
+      "Applied Physics": 0,
+      "Business": 0,
+      "Computer Science": 0,
+      "Data Science": 0,
+      "Economics, Politics & Law": 1,
+      "Electronic & Computer Engineering": 1
+   },
+   "Data Science": {
+      "Actuarial Maths": 0,
+      "Applied Physics": 0,
+      "Business": 1,
+      "Computer Science": 1,
+      "Computing for Business": 0
+   },
+   "Economics, Politics & Law": {
+      "Accounting": 2,
+      "Business": 3,
+      "Computing for Business": 1
+   },
+   "Electronic & Computer Engineering": {
+      "Biotechnology": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Computing for Business": 1,
+      "Genetics & Cell Biology": 0,
+      "Mechanical Engineering": 1
+   },
+   "Genetics & Cell Biology": {
+      "Applied Physics": 0,
+      "Biotechnology": 0,
+      "Chemistry": 0,
+      "Electronic & Computer Engineering": 0,
+      "Mechanical Engineering": 0,
+      "Nursing": 3,
+      "Social Science": 0
+   },
+   "Journalism": {
+      "Accounting": 2,
+      "Business": 0,
+      "Social Science": 3
+   },
+   "Mechanical Engineering": {
+      "Biotechnology": 0,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Electronic & Computer Engineering": 1,
+      "Genetics & Cell Biology": 0
+   },
+   "Nursing": {
+      "Biotechnology": 2,
+      "Chemistry": 1,
+      "Genetics & Cell Biology": 1,
+      "Psychology": 1,
+      "Social Science": 3
+   },
+   "Physical Education and Maths": {
+      "Actuarial Maths": 1,
+      "Applied Physics": 1,
+      "Primary Education": 1
+   },
+   "Primary Education": {
+      "Actuarial Maths": 5,
+      "Applied Physics": 5,
+      "Physical Education and Maths": 2
+   },
+   "Psychology": {
+      "Nursing": 2,
+      "Social Science": 3
+   },
+   "Social Science": {
+      "Genetics & Cell Biology": 2,
+      "Journalism": 2,
+      "Nursing": 0,
+      "Psychology": 0
+   }
+}
